@@ -302,6 +302,12 @@
   letter-spacing: 0.04em;
 }
 
+.app-card__badge--web {
+  background: rgba(37, 244, 238, 0.08);
+  border-color: rgba(37, 244, 238, 0.25);
+  color: var(--accent-cyan);
+}
+
 .app-card__info {
   flex: 1;
 }
@@ -374,6 +380,18 @@
 
 .store-btn--ios-full:active {
   transform: scale(0.97);
+}
+
+.store-btn--web {
+  background: transparent;
+  color: var(--btn-color, var(--accent-cyan));
+  border: 1.5px solid var(--btn-color, var(--accent-cyan));
+  box-shadow: none;
+}
+
+.store-btn--web:hover {
+  background: color-mix(in srgb, var(--btn-color, var(--accent-cyan)) 12%, transparent);
+  box-shadow: none;
 }
 
 /* ─────────────────────────────────────────

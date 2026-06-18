@@ -6,6 +6,16 @@ const WHATSAPP_MESSAGE = 'Hola! Vi tus videos en TikTok y me interesa una app pe
 const APPS = [
   {
     id: 0,
+    emoji: '📚',
+    name: 'MiAcademia',
+    category: 'Academias · Educación',
+    description: 'La app para academias que quieren llevar el control de asistencia, pagos, reportes y más. Organiza alumnos, grupos y mensualidades desde tu iPhone — rápido, offline y sin complicaciones.',
+    iosUrl: 'https://apps.apple.com/pe/app/miacademia-control-clases/id6779854399',
+    color: '#3498db',
+    highlights: ['Control de asistencia', 'Pagos y mensualidades', 'Reportes en PDF'],
+  },
+  {
+    id: 1,
     emoji: '✂️',
     name: 'BarberCitas',
     category: 'Barberías · Estética',
@@ -15,7 +25,7 @@ const APPS = [
     highlights: ['Citas y recordatorios', 'Inventario de productos', 'Reportes financieros'],
   },
   {
-    id: 1,
+    id: 2,
     emoji: '💳',
     name: 'Gestor de Créditos',
     category: 'Finanzas · Préstamos',
@@ -25,7 +35,7 @@ const APPS = [
     highlights: ['Clientes y préstamos', 'Cronograma automático', 'Control de pagos'],
   },
   {
-    id: 2,
+    id: 3,
     emoji: '🏠',
     name: 'Renta Fácil',
     category: 'Propiedades · Alquileres',
@@ -35,7 +45,7 @@ const APPS = [
     highlights: ['Ingresos y gastos', 'Control de arrendatarios', 'Múltiples propiedades'],
   },
   {
-    id: 3,
+    id: 4,
     emoji: '🚗',
     name: 'Autocare Pro',
     category: 'Vehículos · Mantenimiento',
@@ -230,7 +240,7 @@ export default function App() {
           </div>
           <div className="hero__stats">
             <div className="hero__stat">
-              <strong>4</strong>
+              <strong>5</strong>
               <span>Apps iOS</span>
             </div>
             <div className="hero__stat-divider" aria-hidden="true" />
@@ -251,7 +261,7 @@ export default function App() {
       <section id="apps" className="section">
         <div className="section__header">
           <p className="section__label">Apps para iPhone</p>
-          <h2 className="section__title">4 apps para gestionar<br />lo que más importa</h2>
+          <h2 className="section__title">5 apps para gestionar<br />lo que más importa</h2>
           <p className="section__subtitle">Todas mis apps son gratuitas en el App Store. Algunas incluyen funciones premium opcionales por suscripción.</p>
         </div>
         <div className="apps-grid">
